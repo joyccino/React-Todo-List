@@ -38,6 +38,7 @@
 2) App() 은 JSX 표현식을 리턴하며, 이는 Browser 가 DOM 에 궁극적으로 Rendering 할 내용을 정의함.
 3) Export 문: export default App 이라는 명령문 통해 App 컴포넌트를 다른 모듈에서도 사용 가능하도록 함.
 
-- Interrogating the index
-1) React 의 ReactDOM.render() 함수 호출할 것이며, 여기엔 두가지의 인수가 있다. a) 렌더링하고자 하는 컴포넌트 (예제의 경우 </App>), b) 렌더링하고자 하는 컴포넌트 들이 포함된 DOM 요소 (예제의 경우 root 라는 id 가진 요소)
+- Interrogating the index: React 의 ReactDOM.render() 함수 호출할 것이며, 여기엔 두가지의 인수가 있다.
+1) 렌더링하고자 하는 컴포넌트 (예제의 경우 </App>)
+2) 렌더링하고자 하는 컴포넌트 들이 포함된 DOM 요소 (예제의 경우 root 라는 id 가진 요소)
 => React 에게 '루트로써, 혹은 첫 번째 컴포넌트로써 App 컴포넌트를 렌더링하기 원한다' 전달하는 과정.
