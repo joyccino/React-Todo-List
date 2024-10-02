@@ -30,7 +30,7 @@
 ![image](https://github.com/user-attachments/assets/0b1f9684-6747-40dd-9492-939b02154dca)
 
 1) src: 애플리케이션의 소스코드가 위치한 directory -> 가장 시간 많이 보낼 곳
-2) public: 앱 개발 동안 브라우저가 읽을 파일 가진 directory ex) index.html
+2) public: 앱 개발 동안 브라우저가 읽을 파일 (index.html 등) 가진 directory
 3) package.json 파일: Node.js/npm 이 프로젝트 organize 하기 위해 사용하는 정보 포함 - dependency
 
 - 첫번째 React 컴포넌트 </App> 탐색하기
