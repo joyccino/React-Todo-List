@@ -21,3 +21,7 @@
 3) 앱 아키텍쳐 정의하는 파일 및 디렉토리 구조 만듦
 4) 컴퓨터에 깃이 설치된 경우: 디렉토리를 (루트를???) 깃 레포지토리로 초기화
 5) 터미널에서 다음 커맨드 실행: npx create-react-app moz-todo-react --use-npm
+6) moz-todo-react 디렉토리 안에서 'npm start' 커맨드 실행
+
+![image](https://github.com/user-attachments/assets/224d2e9a-8784-4b50-8ab1-2604845117ac)
+
