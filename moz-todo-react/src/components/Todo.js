@@ -23,9 +23,12 @@ export default function Todo(props) {
             <input id={props.id} className="todo-text" value={newName} onChange={handleChange} type="text" />
           </div>
           <div className="btn-group">
-            <button type="button" className="btn todo-cancel">
-              취소
-              <span className="visually-hidden">{props.name} 이름 바꾸기</span>
+            <button
+                type="button"
+                className="btn todo-cancel"
+                onClick={() => setEditing(false)}>
+                취소
+                <span className="visually-hidden">{props.name} 이름 바꾸기</span>
             </button>
             <button type="submit" className="btn btn__primary todo-edit">
               저장
