@@ -74,4 +74,8 @@ cd ..
 ![image](https://github.com/user-attachments/assets/1e2f5ef1-9851-4539-8962-eb88fadf1f9a)
 
 ## 3. React 앱 컴포넌트화 (Oct 2 2024 수)
-
+###  `<Todo />` 만들기
+```
+mkdir src/components
+touch src/components/Todo.js
+```
