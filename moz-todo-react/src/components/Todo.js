@@ -7,13 +7,20 @@ export default function Todo(props) {
         setNewName(e.target.value);
       }
 
+      function handleSubmit(e) {
+        e.preventDefault();
+        props.editTask(props.id, newName);
+        setNewName("");
+        setEditing(false);
+      }
+
     const editingTemplate = (
-        <form className="stack-small">
+        <form className="stack-small" onSubmit={handleSubmit}>
           <div className="form-group">
             <label className="todo-label" htmlFor={props.id}>
               {props.name}의 새로운 이름
             </label>
-            <input id={props.id} className="todo-text" type="text" />
+            <input id={props.id} className="todo-text" value={newName} onChange={handleChange} type="text" />
           </div>
           <div className="btn-group">
             <button type="button" className="btn todo-cancel">
