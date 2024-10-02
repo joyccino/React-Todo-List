@@ -15,7 +15,7 @@
 2) Yarn: npn 을 개선한 버전. 속도(performance) 와 security 부분이 향상되었으나 디스크 용량 더 잡아먹는다고 함.
 3) Gitbash (Install 완) 또는 WSL
 
-### 앱 초기화: create-react-app 을 통해
+### 앱 초기화: create-react-app 을 통해..
 1) 필수적인 npm 패키지 설치
 2) 앱 시작 및 서비스 위한 스크립트 작성
 3) 앱 아키텍쳐 정의하는 파일 및 디렉토리 구조 만듦
