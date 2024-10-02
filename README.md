@@ -33,3 +33,4 @@
 - 첫번째 React 컴포넌트 </App> 탐색하기
 1) App 컴포넌트: 리액트 컴포넌트는 pascal-case 사용하며, 이는 JSX 요소가 정규 HTML 태그가 아니라 React 컴포넌트라는 사실을 분명히 하기 위함임. Therefore, App() 은 소문자 app() 으로 적으면 에러 반환할 것.
 2) App() 은 JSX 표현식을 리턴하며, 이는 Browser 가 DOM 에 궁극적으로 Rendering 할 내용을 정의함.
+3) Export 문: export default App 이라는 명령문 통해 App 컴포넌트를 다른 모듈에서도 사용 가능하도록 함.
