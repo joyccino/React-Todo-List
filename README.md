@@ -1,21 +1,21 @@
 # React-Todo-List
 
-### Hood's comment - Sep 25 2024
+## Hood's comment - Sep 25 2024
 일단 React 자체가 익숙치 않으신 경우라면 Nextjs나 ReactNative를 살펴보기 이전에 React의 기본 라이프 사이클과 철학, 개념 등을 익히고 그 다음 Nextjs 프레임워크 실습을 하면 좋을 것 같아요.
 
 * 도큐먼트 뽀개기: https://developer.mozilla.org/ko/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started
 
 ## 1. 리액트 시작하기 (Oct 2 2024 수)
-- create-react-app 사용할 것
+### create-react-app 사용할 것
 1) command-line interface
 2) 패키지 설치 및 파일 생성 => 앱 개발 준비 과정 신속하게 처리
 
-- Requirements
+### Requirements
 1) Node.js (npm: node package manager): Yarn 보다 먼저 출시됨. 다운로드 수 및 점유율 비교적 높음. (Install 완)
 2) Yarn: npn 을 개선한 버전. 속도(performance) 와 security 부분이 향상되었으나 디스크 용량 더 잡아먹는다고 함.
 3) Gitbash (Install 완) 또는 WSL
 
-- 앱 초기화: create-react-app 을 통해
+### 앱 초기화: create-react-app 을 통해
 1) 필수적인 npm 패키지 설치
 2) 앱 시작 및 서비스 위한 스크립트 작성
 3) 앱 아키텍쳐 정의하는 파일 및 디렉토리 구조 만듦
@@ -25,7 +25,7 @@
 
 ![image](https://github.com/user-attachments/assets/224d2e9a-8784-4b50-8ab1-2604845117ac)
 
-- 애플리케이션 구조
+### 애플리케이션 구조
 
 ![image](https://github.com/user-attachments/assets/0b1f9684-6747-40dd-9492-939b02154dca)
 
@@ -33,24 +33,24 @@
 2) public: 앱 개발 동안 브라우저가 읽을 파일 (index.html 등) 가진 directory
 3) package.json 파일: Node.js/npm 이 프로젝트 organize 하기 위해 사용하는 정보 포함 - dependency
 
-- 첫번째 React 컴포넌트 </App> 탐색하기
+### 첫번째 React 컴포넌트 </App> 탐색하기
 1) App 컴포넌트: 리액트 컴포넌트는 pascal-case 사용하며, 이는 JSX 요소가 정규 HTML 태그가 아니라 React 컴포넌트라는 사실을 분명히 하기 위함임. Therefore, App() 은 소문자 app() 으로 적으면 에러 반환할 것.
 2) App() 은 JSX 표현식을 리턴하며, 이는 Browser 가 DOM 에 궁극적으로 Rendering 할 내용을 정의함.
 3) Export 문: export default App 이라는 명령문 통해 App 컴포넌트를 다른 모듈에서도 사용 가능하도록 함.
 
-- Interrogating the index: React 의 ReactDOM.render() 함수 호출할 것이며, 여기엔 두가지의 인수가 있다.
+### Interrogating the index: React 의 ReactDOM.render() 함수 호출할 것이며, 여기엔 두가지의 인수가 있다.
 1) 렌더링하고자 하는 컴포넌트 (예제의 경우 `</App>`)
 2) 렌더링하고자 하는 컴포넌트 들이 포함된 DOM 요소 (예제의 경우 root 라는 id 가진 요소)
 => 1~2번 통해 React 에게 '루트로써, 혹은 첫 번째 컴포넌트로써 App 컴포넌트를 렌더링하기 원한다' 전달하는 과정.
 
-- 변수와 Props
+### 변수와 Props
 1) prop 은 React 컴포넌트에 전달되는 모든 데이터를 의미함.
 2) HTML 요소는 properties (속성) 을 가지고 있다면, React 컴포넌트는 props 가지고 있음.
 3) Props 는 컴포넌트 호출 안에 쓰이며 props="value" 와 같이 HTML 속성과 동일한 구문 씀.
 4) React 에서 데이터의 흐름은 단방향(unidirectional)임: props 는 오직 부모 컴포넌트에서 자식 컴포넌트로 내려가기만 할 수 있음.
 5) Props 는 오로지 읽기 전용임.
 
-- 요약
+### 요약
 React에서는:
 1) 컴포넌트는 필요한 모듈을 불러오고 그들 자신을 파일의 하단에서 내보낼 수 있습니다.
 2) 컴포넌트 함수는 PascalCase로 명명합니다.
