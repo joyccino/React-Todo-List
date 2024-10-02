@@ -1,4 +1,4 @@
-# React-Todo-List
+# React-Todo-List 예제 (완료)
 
 ## Hood 선생님's comment - Sep 25 2024
 일단 React 자체가 익숙치 않으신 경우라면 Nextjs나 ReactNative를 살펴보기 이전에 React의 기본 라이프 사이클과 철학, 개념 등을 익히고 그 다음 Nextjs 프레임워크 실습을 하면 좋을 것 같아요.
@@ -79,3 +79,11 @@ touch src/components/Todo.js
 ### 반복을 사용한 Rendering
 1) 객체 배열을 렌더링하려면 => 각 객체를 <Todo /> 컴포넌트로 변환해야 함.
 ![image](https://github.com/user-attachments/assets/e0872395-10dc-4255-b3a4-7b32a1153079)
+
+
+## 4. React 상호작용
+1) 이벤트 및 상태
+2) 편집하기, 필터링, 조건부 렌더링
+
+![image](https://github.com/user-attachments/assets/f722066f-4266-4ab8-acc8-65cfe14d55af)
+
