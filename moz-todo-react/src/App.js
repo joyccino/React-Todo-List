@@ -3,7 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 
 function App(props) {
-  const subject = 'React';
+  const subject = props.subject;
+
   console.log(props);
   return (
     <div className="App">
