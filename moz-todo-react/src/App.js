@@ -8,8 +8,10 @@ function App(props) {
   const [tasks, setTasks] = useState(props.tasks);
 
   function addTask(name) {
-    alert(name);
+    const newTask = { id: "id", name, completed: false };
+    setTasks([...tasks, newTask]);
   }
+  
   const taskList = tasks.map((task) => (
     <Todo
       id={task.id}
