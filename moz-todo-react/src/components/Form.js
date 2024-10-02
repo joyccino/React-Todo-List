@@ -5,11 +5,12 @@ function Form(props) {
 
   function handleSubmit(e) {
     e.preventDefault();
-    props.addTask("Say hello!");
+    props.addTask(name);
+    setName("");
   }
 
   function handleChange(e) {
-    console.log("Typing!");
+    setName(e.target.value);
   }
   
   
