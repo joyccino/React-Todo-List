@@ -26,6 +26,7 @@
 ![image](https://github.com/user-attachments/assets/224d2e9a-8784-4b50-8ab1-2604845117ac)
 
 - 애플리케이션 구조
+
 ![image](https://github.com/user-attachments/assets/0b1f9684-6747-40dd-9492-939b02154dca)
 
 1) src: 애플리케이션의 소스코드가 위치한 directory -> 가장 시간 많이 보낼 곳
