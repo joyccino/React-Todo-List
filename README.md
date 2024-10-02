@@ -69,3 +69,7 @@ rm -- App.test.js App.css logo.svg serviceWorker.js setupTests.js
 # 프로젝트의 루트 디렉토리로 다시 돌아오기
 cd ..
 ```
+
+### 프로젝트 시작 코드
+![image](https://github.com/user-attachments/assets/1e2f5ef1-9851-4539-8962-eb88fadf1f9a)
+
