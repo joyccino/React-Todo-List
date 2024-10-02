@@ -6,7 +6,7 @@
 [도큐먼트 뽀개기]
 https://developer.mozilla.org/ko/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started
 
-[1. 리액트 시작하기 (Oct 2 2024 수)]
+## 1. 리액트 시작하기 (Oct 2 2024 수)
 - create-react-app 사용할 것
 1) command-line interface
 2) 패키지 설치 및 파일 생성 => 앱 개발 준비 과정 신속하게 처리
