@@ -21,3 +21,4 @@ https://developer.mozilla.org/ko/docs/Learn/Tools_and_testing/Client-side_JavaSc
 2) 앱 시작 및 서비스 위한 스크립트 작성
 3) 앱 아키텍쳐 정의하는 파일 및 디렉토리 구조 만듦
 4) 컴퓨터에 깃이 설치된 경우: 디렉토리를 (루트를???) 깃 레포지토리로 초기화
+5) 터미널에서 다음 커맨드 실행: npx create-react-app moz-todo-react --use-npm
