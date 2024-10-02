@@ -76,6 +76,6 @@ mkdir src/components
 touch src/components/Todo.js
 ```
 
-### 반복을 사용한 렌더링
-1) 객체 배열을 렌더링하려면, 각 객체를 <Todo /> 컴포넌트로 변환해야 함.
+### 반복을 사용한 Rendering
+1) 객체 배열을 렌더링하려면 => 각 객체를 <Todo /> 컴포넌트로 변환해야 함.
 2) JavaScript는 항목을 다른 것으로 변환하는 Array.prototype.map() 배열 메서드를 제공함.
