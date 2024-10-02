@@ -29,3 +29,7 @@
 1) src: 애플리케이션의 소스코드가 위치한 directory -> 가장 시간 많이 보낼 곳
 2) public: 앱 개발 동안 브라우저가 읽을 파일 가진 directory ex) index.html
 3) package.json 파일: Node.js/npm 이 프로젝트 organize 하기 위해 사용하는 정보 포함 - dependency
+
+- 첫번째 React 컴포넌트 </App> 탐색하기
+1) App 컴포넌트: 리액트 컴포넌트는 pascal-case 사용하며, 이는 JSX 요소가 정규 HTML 태그가 아니라 React 컴포넌트라는 사실을 분명히 하기 위함임. Therefore, App() 은 소문자 app() 으로 적으면 에러 반환할 것.
+2) App() 은 JSX 표현식을 리턴하며, 이는 Browser 가 DOM 에 궁극적으로 Rendering 할 내용을 정의함.
